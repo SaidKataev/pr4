@@ -1,0 +1,178 @@
+@font-face{
+  font-family: basil;
+  src: url(basil.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.videobackground1{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+.video1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.start{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+
+}
+.start1{
+    width: 60%;
+    height: 80%;
+    border:1px solid black;
+    display: flex;
+    flex-direction: column;
+
+}
+.start2{
+    width: 100%;
+    height: 50%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+}
+.start3{
+    width: 40%;
+    height: 45%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 2%;
+}
+.buytext{
+    font-size: 1.5vw;
+}
+input {
+  border: 1px solid;
+  padding: 0.3em;
+  width: 100%;
+}
+
+label {
+  display: block;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.date-code {
+  display: flex;
+  margin: 0 -1em;
+}
+
+.date-code div {
+  margin: 0 1em;
+}
+.buttontext{
+    font-size: 1.5vw;
+    text-align: center;
+    font-family: basil;
+    transition: all 1s; 
+}
+.buttontext:hover{
+    background: rgb(9, 196, 9);
+    color: white 
+}
+
+.spanpollicy{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border: 0px solid black ;
+    height: 50px;
+    width: 100%;
+}
+.checkbox{
+    width: 20px;
+    height: 20px;
+}
+a{
+    text-decoration: none;
+}
+.imgfuckgif{
+    margin-top: 5%;
+    width: 25%;
+    height: 50%;
+    text-align: center;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    animation-name: giftfuck;
+    animation-duration: 8s;
+    animation-delay: 0;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+}
+@keyframes giftfuck{
+    0% {
+        opacity: 0;
+        margin-top: 30%;
+    }
+    100%{
+        width: 35%;
+        height: 70%;
+        opacity: 1;
+        margin-top: 0%;
+    }
+}
+
+.video2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+.errorvideo{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    pointer-events: none;
+}
+.button1{
+    z-index: 1;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    transition: all 1s;
+    background: black;
+    color: white;
+    font-size: 1.2vw;
+}
+.button1:hover{
+    transform: scale(1.05);
+}

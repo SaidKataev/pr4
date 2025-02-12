@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgba(196, 196, 196, 0.4);
+}
+
+@font-face {
+    font-family: basil;
+    src: url(basil.ttf);
+}
+@font-face {
+    font-family: tape;
+    src: url(tape.ttf);
+}
+
+
+.start{
+    width: 100%;
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.start1{
+    width: 43%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0, 0.9);
+    border-radius: 20px;
+    border: 4px solid rgb(85, 2, 85)
+}
+.textbighappy{
+    font-family: basil;
+    font-size: 2vw;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    color: white;
+}
+.wife{
+    background-image:
+    linear-gradient(250deg,
+      #ae60e2 0%,
+      #e96565 50%,
+      #FCB045 100%
+    );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.start2{
+    background: rgba(196, 196, 196, 0.4);
+    border-radius: 20px;
+    margin-top: 5% ;
+    width: 40%;
+    height: 50%;
+    border: 0px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.textbig{
+    text-align: center;
+    width: 70%;
+    height: 20%;
+    border: 0px solid black;
+    display: flex;
+    justify-content: center;
+}
+.textmini{
+    font-size: 1.2vw;
+    font-family: basil;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.qrcode{
+    width: 100%;
+    height: 60%;
+    border: 0px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.infacont{
+    width: 100%;
+    height: 20%;
+}
+.imgqrcode{
+    width: 20%;
+    height: 70%;
+}
+.textoplatabank{
+    border: 0px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nomerbank{
+    background-image:
+    linear-gradient(250deg,
+      #019e3d 0%,
+      #00af09 50%,
+      #049179 100%
+    );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 1.2vw;
+
+}
+.nomerbank1{
+    font-size: 1.2vw;
+    color: black;
+    font-family: basil;
+}
+.textoplatausdt{
+    border: 0px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.oplatabig{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.infacont{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.telegramnick{
+    font-size: 1.2vw;
+}
+.textbottom{
+    font-size: 1vw;
+}

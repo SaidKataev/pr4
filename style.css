@@ -1,0 +1,169 @@
+    body{
+    margin: 0;
+    padding: 0;
+    background-image: url(elkaperedel.png);
+    background-size:auto;
+}
+.start{
+    width: 100%;
+    height: 940px;
+    background: rgba(0, 0, 0, 0.6);
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+.imgvkl{
+    width: 100px;
+    height: 100px;
+}
+.start1{
+    width: 50%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    border: 0px solid white
+}
+.menu{
+    width: 50%;
+    height: 400px;
+    flex-direction: column;
+    display: flex;
+    border: 0px solid white;
+    align-items: center;
+    justify-content: center;
+}
+.inputdiv{
+    width: 50%;
+    height: 80%;
+    flex-direction: column;
+    display: flex;
+    border: 0px solid white;
+    align-items: center ;   
+    justify-content: space-evenly;
+}
+.textvibor{
+    color: white;
+    font-size: 1.5vw;
+    font-family: basil;
+}
+.checkbox{
+    width: 25px;
+    height: 25px;
+
+}
+.label1{
+    width: 170px;
+    height: 45px;
+    color: white;
+    font-size: 1.3vw;
+    text-align: center;
+    border: 0px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background: rgba(33, 129, 92, 0.9);
+    text-decoration: none;
+    transition: all 1s;
+}
+.label1:hover{
+    transform: scale(1.05);
+    background-color: rgb(236, 37, 80);
+}
+.imgvkl{
+    width: 100px;
+    height: 100px;
+}
+.start2{
+    background-image: url(GOD.jpg);
+    width: 100%;
+    height: 940px;
+    display: none;
+}
+
+.label2{
+    width: 170px;
+    height: 45px;
+    color: white;
+    font-size: 1.3vw;
+    text-align: center;
+    border: 0px solid white;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background: rgba(33, 129, 92, 0.9);
+    text-decoration: none;
+    transition: all 1s;
+}
+.label2:hover{
+    transform: scale(1.05);
+    background-color: rgb(236, 37, 80);
+}
+.snow123{
+    opacity: 0;
+}
+.label21{
+    width: 170px;
+    height: 45px;
+    color: white;
+    font-size: 1.3vw;
+    text-align: center;
+    border: 0px solid white;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background: rgba(33, 129, 92, 0.9);
+    text-decoration: none;
+    transition: all 1s;
+}
+.label21:hover{
+    transform: scale(1.05);
+    background-color: rgb(236, 37, 80);
+}
+
+
+.labelubrat{
+    width: 170px;
+    height: 45px;
+    color: white;
+    font-size: 1.3vw;
+    text-align: center;
+    border: 0px solid white;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background: rgba(33, 129, 92, 0.9);
+    text-decoration: none;
+    transition: all 1s;
+}
+.labelubrat:hover{
+    transform: scale(1.05);
+    background-color: rgb(236, 37, 80);
+}
+
+
+.labeltime{
+    width: 170px;
+    height: 45px;
+    color: white;
+    font-size: 1.3vw;
+    text-align: center;
+    border: 0px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background: rgba(33, 129, 92, 0.9);
+    text-decoration: none;
+    transition: all 1s;
+}
+.labeltime:hover{
+    transform: scale(1.05);
+    background-color: rgb(236, 37, 80);
+}
+
